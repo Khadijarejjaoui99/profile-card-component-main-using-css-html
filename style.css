@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  font-size: 15px;
+  background-image: url(https://digitshack.com/codepen/mentor4/bg-pattern-top.svg),
+    url(https://digitshack.com/codepen/mentor4/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+  text-align: center;
+}
+main {
+  background-color: #fff;
+  border-radius: 1em;
+}
+.main__bg img {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.main__info img {
+  width: 6.67em;
+  height: 6.7em;
+  border: 4px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-top: -4em;
+  margin-bottom: 1em;
+}
+.loaction {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+.networking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em 0;
+}
+.followers,
+.likes,
+.photos {
+  margin: 0 2.1em;
+  line-height: 1.5;
+}
+.name,
+.networking p:first-child {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.networking p:last-child {
+  color: hsl(0, 0%, 59%);
+  font-size: 13px;
+}
+.age,
+.loaction {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+hr {
+  border: 0;
+  border-top: 0.1px solid hsla(227, 10%, 46%, 0.2);
+}
