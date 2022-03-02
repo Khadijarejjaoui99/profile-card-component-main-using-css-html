@@ -22,6 +22,7 @@ body {
 main {
   background-color: #fff;
   border-radius: 1em;
+  margin: 1em;
 }
 .main__bg img {
   border-top-left-radius: 1em;
